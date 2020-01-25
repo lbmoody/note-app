@@ -1,3 +1,9 @@
 build:
-  docker:
-    web: dockerfile
+    docker:
+        web: dockerfile
+# run:
+#   web: bundle exec puma -C config/puma.rb
+    
+# im commenting out the run command as the omission will force the .yml file to use the CMD command in the docker file since this is a simple deployment. 
+
+    

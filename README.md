@@ -18,7 +18,8 @@ Note Page:
 ## docker deployment with heroku
 With this applicaiton I am testing containerized deployments on heroku with docker and a heroku.yml file. Since there isnt a database with this application it is just a trial run to understand and practice building docker files locally and testing deployments via docker.
 
-If you have docker installed locally you can test the application build and run the application locally through docker.
+If you have docker installed locally you can test the application build and run the application locally through docker. [Heroku](https://devcenter.heroku.com/categories/deploying-with-docker) Documentation to deploy with docker.
+
 
 Build docker file command
 `docker build -t <app-name>`
