@@ -22,7 +22,7 @@ If you have docker installed locally you can test the application build and run 
 
 
 Build docker file command
-`docker build -t <app-name>`
+`docker build -t <app-name> .`
 
 After successful build run this command to run application locally with docker.
 `docker run --rm -it -p 8080:8080 <app-name>`
