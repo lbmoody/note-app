@@ -15,3 +15,13 @@ Landing Page:
 Note Page:
 ![image](https://user-images.githubusercontent.com/24512590/73115754-923c1500-3ee7-11ea-92d7-003eb46f444c.png)
 
+## docker deployment with heroku
+With this applicaiton I am testing containerized deployments on heroku with docker and a heroku.yml file. Since there isnt a database with this application it is just a trial run to understand and practice building docker files locally and testing deployments via docker.
+
+If you have docker installed locally you can test the application build and run the application locally through docker.
+
+Build docker file command
+`docker build -t <app-name>`
+
+After successful build run this command to run application locally with docker.
+`docker run --rm -it -p 8080:8080 <app-name>`
